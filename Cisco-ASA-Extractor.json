@@ -25,25 +25,6 @@
       "converters": [
         {
           "config": {},
-          "type": "syslog_pri_facility"
-        }
-      ],
-      "cursor_strategy": "copy",
-      "extractor_config": {
-        "regex_value": "^<(\\d+)>"
-      },
-      "extractor_type": "regex",
-      "order": 0,
-      "source_field": "message",
-      "target_field": "facility",
-      "title": "Facility"
-    },
-    {
-      "condition_type": "none",
-      "condition_value": "",
-      "converters": [
-        {
-          "config": {},
           "type": "syslog_pri_level"
         }
       ],
